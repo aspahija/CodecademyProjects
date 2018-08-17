@@ -5,10 +5,10 @@ const nextWeb = document.getElementById('nextWeb');
 const main = document.getElementsByTagName('main')[0];
 
 // News API Data
-const apiKey = '1cd6aebc73c44a4a80789e38ddb76834';
-const engadgetUrl = 'https://newsapi.org/v2/top-headlines?sources=engadget&apiKey=1cd6aebc73c44a4a80789e38ddb76834';
-const recodeUrl = 'https://newsapi.org/v2/top-headlines?sources=recode&apiKey=1cd6aebc73c44a4a80789e38ddb76834';
-const nextWebUrl = 'https://newsapi.org/v2/top-headlines?sources=the-next-web&apiKey=1cd6aebc73c44a4a80789e38ddb76834';
+const apiKey = 'apiKey';
+const engadgetUrl = 'https://newsapi.org/v2/top-headlines?sources=engadget&apiKey=apiKey';
+const recodeUrl = 'https://newsapi.org/v2/top-headlines?sources=recode&apiKey=apiKey';
+const nextWebUrl = 'https://newsapi.org/v2/top-headlines?sources=the-next-web&apiKey=apiKey';
 
 // Request News Function
 async function getNews(url) {
